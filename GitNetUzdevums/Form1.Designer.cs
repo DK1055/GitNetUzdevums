@@ -32,6 +32,8 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.GroupBoxDKarklins = new System.Windows.Forms.GroupBox();
+            this.ButtonDKarklins = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -75,11 +77,32 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Andrejs Liepiņš";
             // 
+            // GroupBoxDKarklins
+            // 
+            this.GroupBoxDKarklins.Location = new System.Drawing.Point(241, 240);
+            this.GroupBoxDKarklins.Name = "GroupBoxDKarklins";
+            this.GroupBoxDKarklins.Size = new System.Drawing.Size(200, 100);
+            this.GroupBoxDKarklins.TabIndex = 4;
+            this.GroupBoxDKarklins.TabStop = false;
+            this.GroupBoxDKarklins.Text = "Davis Karklins";
+            // 
+            // ButtonDKarklins
+            // 
+            this.ButtonDKarklins.Location = new System.Drawing.Point(18, 177);
+            this.ButtonDKarklins.Name = "ButtonDKarklins";
+            this.ButtonDKarklins.Size = new System.Drawing.Size(75, 23);
+            this.ButtonDKarklins.TabIndex = 5;
+            this.ButtonDKarklins.Text = "y=cosx";
+            this.ButtonDKarklins.UseVisualStyleBackColor = true;
+            this.ButtonDKarklins.Click += new System.EventHandler(this.ButtonDKarklins_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1016, 415);
+            this.Controls.Add(this.ButtonDKarklins);
+            this.Controls.Add(this.GroupBoxDKarklins);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
@@ -96,6 +119,8 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox GroupBoxDKarklins;
+        private System.Windows.Forms.Button ButtonDKarklins;
     }
 }
 
